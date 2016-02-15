@@ -1,4 +1,4 @@
-public Form1()
+Public class Form1()
         {
             InitializeComponent(); // InitializeComponent - процедура создающая видимую форму и связывающая все события с имеющимися  процедурами
 
