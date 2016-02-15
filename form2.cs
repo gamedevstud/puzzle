@@ -24,7 +24,7 @@
   
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e) 
         {
-            //Метод-обработчик задержки мыши
+              / //Метод-обработчик задержки мыши
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e) 
