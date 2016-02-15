@@ -17,6 +17,7 @@ Public class Form1()
 
         private void button3_Click(object sender, EventArgs e)
         {
+			var a = 5;
         }//кнопка выхода
 
         private void pictureBox1_Click(object sender, EventArgs e)//добавляет на форму элемент picturebox
