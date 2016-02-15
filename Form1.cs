@@ -1,7 +1,10 @@
-Public class Form1()
+ public partial class Form1 : Form
+    {
+        public Form1()
         {
-            InitializeComponent(); // InitializeComponent - процедура создающая видимую форму и связывающая все события с имеющимися  процедурами
-
+            InitializeComponent();
+     
+       
 
         }
 
@@ -10,19 +13,21 @@ Public class Form1()
 
 
         private void button2_Click(object sender, EventArgs e)
-        {    
-        } //кнопка начать игру
+        {    f = new Form3(pictureBox1);
+            f.Show();
+        }
 
-    
+        private void button1_Click(object sender, EventArgs e)
+        {         Form4 f1 = new Form4();
+            f1.Show();
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
-        }//кнопка выхода
-
-        private void pictureBox1_Click(object sender, EventArgs e)//добавляет на форму элемент picturebox
-
-        {
-
+            this.Close();
         }
     }
 }
+
+
+
