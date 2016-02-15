@@ -2,7 +2,7 @@
     {
         public Form1()
         {
-            InitializeComponent();
+            kjkjljl InitializeComponent();
      
        
 
